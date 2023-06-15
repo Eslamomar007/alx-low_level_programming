@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-*      main - Prints "Programming is like building new line with 
-*      			puts function ".
+*      main - Prints "Programming is like building new line with puts"
 *
-*      Return: Always 1.
+*      Return: Always1
 */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
