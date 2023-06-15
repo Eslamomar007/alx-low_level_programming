@@ -2,16 +2,11 @@
 
 /*
 * main - Entry point
-* Return: Always 0 (Success)
+* Description : prints
+* Return: Always 1 (Success)
 */
 int main(void)
 {
-
-	puts("\"Programming is like building a multilingual puzzle");
-
-		/**
-		 * retrun: 0 if asfasfd 
-		*/	
-
+	puts("\"Programming is like building a multilingual puzzle");	
 	return (0);
 }
