@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ *      main - Prints "Programming is like building new line with 
+ *      		puts ".
  *
- * Description: prints
- *
- * Return: Always 1 (Success)
-*/
-
+ *      Return: Always 1.
+ */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");	
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
