@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description : prints
+ * Description: prints
  * Return: Always 1 (Success)
 */
 
