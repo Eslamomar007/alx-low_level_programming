@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod a+x au	
+chmod a+x *	
 git add . 
 git commit -m done 
 git push 
