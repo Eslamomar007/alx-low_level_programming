@@ -23,7 +23,7 @@ int main(void)
 			i += 1; 
 			n = i; 
 		}
-		if (i == 58)
+		if (i)
 		{
 			break;
 		}
