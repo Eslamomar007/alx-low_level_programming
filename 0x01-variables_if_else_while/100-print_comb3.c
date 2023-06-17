@@ -27,6 +27,10 @@ int main(void)
 			i += 1; 
 			n = i; 
 		}
+		if (i == 8 && n = 9)
+		{
+			break;
+		}
 		n++;
 	}
 	putchar(10);
