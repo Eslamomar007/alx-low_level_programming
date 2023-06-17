@@ -27,7 +27,7 @@ int main(void)
 			i += 1; 
 			n = i; 
 		}
-		if (i == 8 && n == 9)
+		if (i == 9)
 		{
 			break;
 		}
