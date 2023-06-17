@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	int n  = 1;
-	int i = 0;
+	int n  = 49;
+	int i = 48;
 	
-	while (i < 9)
+	while (i <= 59)
 	{ 
 		if (i == n)
 		{
@@ -22,7 +22,7 @@ int main(void)
 		putchar(n);
 		putchar(44);
 		putchar(32);
-		if (n == 9)
+		if (n == 59)
 		{
 			i += 1; 
 			n = i + 1; 
