@@ -28,8 +28,8 @@ int main(void)
 		}
 		if (looping != 9)
 		{
-			putchar(32);
 			putchar(44);
+			putchar(32);
 		}
 		n++;
 	}
