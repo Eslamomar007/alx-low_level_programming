@@ -22,7 +22,7 @@ int main(void)
 		putchar(n);
 		putchar(44);
 		putchar(32);
-		if (n == 59)
+		if (n == 57)
 		{
 			i += 1; 
 			n = i + 1; 
