@@ -11,7 +11,7 @@ int main(void)
 {
 	int n  = 49;
 	int i = 48;
-	
+	int looping = 0;
 	while (i < 58)
 	{ 
 		putchar(i);
@@ -22,8 +22,9 @@ int main(void)
 		{
 			i += 1; 
 			n = i; 
+			looping += 1;
 		}
-		if (i > 57)
+		if (looping == 9)
 		{
 			break;
 		}
