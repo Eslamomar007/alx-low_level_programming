@@ -13,21 +13,24 @@ int main(void)
 	int i = 48;
 	int looping = 0;
 	while (i < 58)
-	{ 
+	{
 		putchar(i);
 		putchar(n);
 		putchar(44);
 		if (n == 57)
 		{
-			i += 1; 
-			n = i; 
+			i += 1;
+			n = i;
 			looping += 1;
 		}
 		if (looping == 9)
 		{
 			break;
 		}
-		putchar(32);
+		if (looping != 8)
+		{	
+			putchar(32);
+		}
 		n++;
 	}
 	putchar(10);
