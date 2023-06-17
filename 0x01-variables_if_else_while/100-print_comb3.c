@@ -25,7 +25,7 @@ int main(void)
 		if (n == 57)
 		{
 			i += 1; 
-			n = i + 1; 
+			n = i; 
 		}
 		n++;
 	}
