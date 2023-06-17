@@ -12,6 +12,7 @@ int main(void)
 	int n  = 49;
 	int i = 48;
 	int looping = 0;
+		
 	while (i < 58)
 	{
 		putchar(i);
