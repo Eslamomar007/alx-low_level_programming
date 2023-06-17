@@ -14,10 +14,6 @@ int main(void)
 	
 	while (i <= 59)
 	{ 
-		if (i == n)
-		{
-			continue;
-		}
 		putchar(i);
 		putchar(n);
 		putchar(44);
