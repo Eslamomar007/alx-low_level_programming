@@ -17,7 +17,6 @@ int main(void)
 		putchar(i);
 		putchar(n);
 		putchar(44);
-		putchar(32);
 		if (n == 57)
 		{
 			i += 1; 
@@ -28,6 +27,7 @@ int main(void)
 		{
 			break;
 		}
+		putchar(32);
 		n++;
 	}
 	putchar(10);
