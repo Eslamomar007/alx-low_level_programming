@@ -16,7 +16,6 @@ int main(void)
 	{
 		putchar(i);
 		putchar(n);
-		putchar(32);
 		if (n == 57)
 		{
 			i += 1;
@@ -29,6 +28,7 @@ int main(void)
 		}
 		if (looping != 9)
 		{
+			putchar(32);
 			putchar(44);
 		}
 		n++;
