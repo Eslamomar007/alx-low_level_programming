@@ -12,7 +12,7 @@ int main(void)
 	int n  = 49;
 	int i = 48;
 	
-	while (i <= 59)
+	while (i < 58)
 	{ 
 		putchar(i);
 		putchar(n);
@@ -23,7 +23,7 @@ int main(void)
 			i += 1; 
 			n = i; 
 		}
-		if (i == 9)
+		if (i == 58)
 		{
 			break;
 		}
