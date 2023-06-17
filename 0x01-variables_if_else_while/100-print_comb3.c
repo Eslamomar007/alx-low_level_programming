@@ -27,8 +27,8 @@ int main(void)
 		{
 			break;
 		}
-		if (looping != 8)
-		{	
+		if (looping != 9)
+		{
 			putchar(44);
 		}
 		n++;
