@@ -9,17 +9,26 @@
 
 int main(void)
 {
-	int n;
-	int i;
-	for (n = 48; n < 57; n++)
-	{
-		for (i = 49; i <= 57; n++)
+	int n  = 1;
+	int i = 0;
+	int loop_num = 0;
+
+	while (i < 9)
+	{ 
+		if (i == n)
 		{
-			putchar(n);
-			putchar(i);
-			if (i == 57)
-			putchar(44);			
+			continue;
 		}
+		putchar(i);
+		putchar(n);
+		putchar(44);
+		putchar(32);
+		if (n == 9)
+		{
+			i += 1; 
+			n = i + 1; 
+		}
+		n++;
 	}
 	putchar(10);
 	return (0);
