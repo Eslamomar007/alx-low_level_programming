@@ -11,8 +11,7 @@ int main(void)
 {
 	int n  = 1;
 	int i = 0;
-	int loop_num = 0;
-
+	
 	while (i < 9)
 	{ 
 		if (i == n)
