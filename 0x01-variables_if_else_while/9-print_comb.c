@@ -14,7 +14,11 @@ int main(void)
 	for (n = 0; n < 10; n++)
 	{
 		putchar(48 + n);
-		putchar(',');
+		if (n != 9)
+		{
+			putchar(',');
+		}
+		putchar('\n');
 	}
 	putchar(10);
 	return (0);
