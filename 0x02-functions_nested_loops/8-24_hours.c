@@ -32,7 +32,7 @@ void jack_bauer(void)
 			minute2 = 0;
 			minute1 = minute1 + 1;
 		}
-		if (minute1 == 5 && minute == 9)
+		if (minute1 == 5 && minute2 == 9)
 		{
 			minute1 = 0;
 			minute2 = 0; 
