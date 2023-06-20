@@ -26,8 +26,11 @@ void jack_bauer(void)
 		_putchar(hour2 + '0');
 		_putchar(hour1 + '0');
 		_putchar(58);
+		if (minute2 < 10)
+			_putchar(minute1 + '0');
+		
 		_putchar(minute2 + '0');
-		_putchar(minute1 + '0');
+		
 		_putchar('\n');
 		minute2 =+ 1;
 	}
