@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 *      _islower - Prints "Programming is ing new line with puts"
-*
+*      @c: The character to print
 *      Return: Always1
 */
 
