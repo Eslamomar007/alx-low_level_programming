@@ -13,7 +13,9 @@ int main(void)
 	int prev_fi = 1;
 	while (counter < 99)
 	{
-
+	
+		printf(fi);
+		printf(fi);
 		break;
 	
 
