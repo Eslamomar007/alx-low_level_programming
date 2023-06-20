@@ -6,13 +6,13 @@
 *      Return: Always1
 */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	int i = 97;
+
 	for( i = 97; i <= 122; i++)
 	{
 		_putchar('_');
-		_putchar('\n');
 	}
-	return (0);
+	_putchar('\n');
 }
