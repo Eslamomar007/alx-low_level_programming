@@ -18,5 +18,5 @@ void main(void)
 		fi = fi + prev_fi;
 		counter++;
 	}
-
+	return(0);
 }
