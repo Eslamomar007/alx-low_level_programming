@@ -15,7 +15,7 @@ int main(void)
 	{
 	
 		printf("%d",fi);
-		printf("%d",fi);
+		printf("%d",prev_fi);
 		break;
 	
 
