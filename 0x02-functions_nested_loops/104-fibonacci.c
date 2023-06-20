@@ -8,14 +8,17 @@
 
 int main(void)
 {
-	int fi = 2;
+	int fi = 1;
 	int prev_fi = 1; 
 	int counter = 1;
+	int storage = 0; 
 
 	while (counter < 99)
 	{
 		printf("%d, ", fi);
+		storage = fi;
 		fi = fi + prev_fi;
+		prev_fi = storage;
 		counter++;
 	}
 	return(0);
