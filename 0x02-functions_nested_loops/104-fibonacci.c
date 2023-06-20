@@ -14,8 +14,8 @@ int main(void)
 	while (counter < 99)
 	{
 	
-		printf("%n",fi);
-		printf("%n",fi);
+		printf("%d",fi);
+		printf("%d",fi);
 		break;
 	
 
