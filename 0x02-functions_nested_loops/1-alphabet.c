@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*      print_alphabet - Prints "Programming is like building new line with puts"
+*      print_alphabet - Prints "Programming is li building new line with puts"
 *
 *      Return: Always1
 */
