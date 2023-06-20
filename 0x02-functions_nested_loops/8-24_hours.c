@@ -17,8 +17,6 @@ void jack_bauer(void)
 	printf("00:00");
 	while (minute2 < 24)
 	{
-		if (minute2 < 10)
-			minute1 = 0;
 		if (hour2 < 10)
 		
 			hour2 = 0;
@@ -43,7 +41,7 @@ void jack_bauer(void)
 		_putchar(minute2 + '0');
 		
 		_putchar('\n');
-		minute2 =minute2+ 1;
+		minute2 = minute2 + 1;
 	}
 
 
