@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 /**
@@ -7,10 +6,17 @@
 *      Return: Always1
 */
 
-int print_last_digit(int n)
+int main(void)
 {
-	int x;
+	int counter = 0;
+	int fi = 1 ;
+	int prev_fi = 1;
+	while (counter < 99)
+	{
 
-	x = n % 10;
-	return (x);
+		break;
+	
+
+	}
 }
+
