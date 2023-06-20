@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*      _isalpha - Prints "Programming is ing new line with puts"
-*      @c: The character to print
+*      print_sign - Prints "Programming is ing new line with puts"
+*      @n: The character to print
 *      Return: Always1
 */
 
-int _isalpha(int c)
+int print_sign(int n)
 {
 	if (n > 0 )
 	{
@@ -22,7 +22,6 @@ int _isalpha(int c)
 		_putchar('\n');
 		return ("-1");
 	}
-
 	putchar(48);
 	putchar(44);
 	putchar('\n');
