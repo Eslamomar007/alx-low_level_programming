@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-void main(void)
+int main(void)
 {
 	int fi = 2;
 	int prev_fi = 1; 
