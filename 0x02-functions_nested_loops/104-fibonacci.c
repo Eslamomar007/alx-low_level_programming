@@ -1,24 +1,18 @@
-#include <stdlib.h>
 #include <stdio.h>
-/**
-*      print_last_digit - Prints "Programming is ing new line with puts"
-*      @n: The character to print
-*      Return: Always1
-*/
 
+/**
+ *  * main - prints the alphabet in lowercase, and then in uppercase,
+ *   * followed by a new line
+ *    * Return: Always 0 (Success)
+ *     */
 int main(void)
 {
-	int counter = 0;
-	int fi = 1 ;
-	int prev_fi = 1;
-	while (counter < 99)
-	{
-	
-		printf("%d",fi);
-		printf("%d",prev_fi);
-		break;	
+		int ch;
 
-	}
-
+			for (ch = 'a'; ch <= 'z'; ch++)
+						putchar(ch);
+				for (ch = 'A'; ch <= 'Z'; ch++)
+							putchar(ch);
+					putchar('\n');
+						return (0);
 }
-
