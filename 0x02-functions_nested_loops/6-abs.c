@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
 *      _abs - Prints "Programming is ing new line with puts"
 *      @n: The character to print
