@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*      print_alphabet_x10 - Prints "Programming is li building new line with puts"
+*      print_alphabet_x10 - Prints "Programming is ing new line with puts"
 *
 *      Return: Always1
 */
