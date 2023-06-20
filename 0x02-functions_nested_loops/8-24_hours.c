@@ -29,7 +29,7 @@ void jack_bauer(void)
 		_putchar(minute2 + '0');
 		_putchar(minute1 + '0');
 		_putchar('\n');
-		minute1+=1;
+		minute1 = minute + 1;
 	}
 
 
