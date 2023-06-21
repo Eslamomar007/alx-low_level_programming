@@ -42,7 +42,6 @@ void jack_bauer(void)
 		
 		_putchar('\n');
 		minute2 = minute2 + 1;
-		hour2 +=1;
 	}
 
 
