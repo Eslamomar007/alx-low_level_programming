@@ -16,12 +16,9 @@ void times_table(void)
 
 	for(x = 0; x <= 9; x++)
 		{
-			for ( i = 0; i <= 9 ; i++)
-			{	
-		
-			
-			
-			input = i * x;
+			for ( i = 0; i <= 9 ; i++)	
+			{
+				input = i * x;
 			if (input > 9)
 			{
 				sec = input % 10;
@@ -38,7 +35,7 @@ void times_table(void)
 
 			else
 			{
-			_putchar(' ');	
+				
 			_putchar(input + '0');
 			if( i != 9)
 			{
