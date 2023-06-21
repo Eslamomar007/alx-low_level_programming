@@ -43,10 +43,11 @@ void print_times_table(int n)
 			}
 			else
 			{
+				\**
 				if (i != 0)
 				{
 					printf("  ");
-				}
+				}*\
 				_putchar(input + '0');
 				if (i != n)
 				{
