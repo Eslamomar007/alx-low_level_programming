@@ -7,7 +7,7 @@
 *      Return: Always1
 */
 
-int jack_bauer(void)
+void jack_bauer(void)
 {
 	int minute1 = 0;
 	int minute2 = 0;
@@ -48,5 +48,5 @@ int jack_bauer(void)
 			counter++;
 	                        
 	}
-	reutrn (0);
+
 }
