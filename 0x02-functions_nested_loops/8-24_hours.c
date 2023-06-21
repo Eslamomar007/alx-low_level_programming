@@ -13,8 +13,8 @@ void jack_bauer(void)
 	int minute2 = 0;
 	int hour1 = 0;
 	int hour2 = 0;
-	int counter = 0;
-	while (true)
+
+	while (1)
 	{
 		if (hour2 > 9)
 		{
