@@ -25,17 +25,24 @@ void jack_bauer(void)
 		_putchar(hour1 + '0');
 		_putchar(hour2 + '0');
 		_putchar(58);
+		if (minute1 == 5 && minute2 == 10)
+		{
+			minute1 = 0;
+			minute2 = 0;
+			hour2 = hour2 + 1;
+		}
 		if (minute2 > 9)
 		{
 			minute2 = 0;
 			minute1 = minute1 + 1;
 		}
+		/**
 		if (minute1 == 5 && minute2 == 10)
 		{
 			minute1 = 0;
 			minute2 = 0; 
 			hour2 = hour2 + 1;
-		}
+		}*/
 
 		_putchar(minute1 + '0');
 		_putchar(minute2 + '0');
