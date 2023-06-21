@@ -9,9 +9,6 @@
 void print_to_98(int n)
 {
 	int i = 98;
-	int fi = 0;
-	int sec = 0;
-	int th = 0;
 
 	if (n > 98)
 	{
