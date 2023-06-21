@@ -3,11 +3,11 @@
 #include <stdio.h>
 /**
 *      print_last_digit - Prints "Programming is ing new line with puts"
-*      @n: The character to print
+*      t
 *      Return: Always1
 */
 
-void jack_bauer(void)
+int jack_bauer(void)
 {
 	int minute1 = 0;
 	int minute2 = 0;
@@ -48,4 +48,5 @@ void jack_bauer(void)
 			counter++;
 	                        
 	}
+	reutrn (0);
 }
