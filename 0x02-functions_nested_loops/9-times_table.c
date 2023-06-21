@@ -35,7 +35,8 @@ void times_table(void)
 
 			else
 			{
-				
+			if(x != 0)
+			_putchar(' ');	
 			_putchar(input + '0');
 			if( i != 9)
 			{
