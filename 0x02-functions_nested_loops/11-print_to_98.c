@@ -9,11 +9,15 @@
 void print_to_98(int n)
 {
 	int i = 98;
+	int fi = 0;
+	int sec = 0;
 
 	if (n > 98)
 	{
 		for (n = n ; n <= 98; n--)
 		{
+
+
 			_putchar(n + '0');
 			if (n != i)
 			{
@@ -34,4 +38,5 @@ void print_to_98(int n)
 			}							
 		}
 	}
+	_putchar('\n');
 }
