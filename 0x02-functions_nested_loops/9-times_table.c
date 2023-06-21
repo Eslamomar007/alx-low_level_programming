@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*      _islower - Prints "Programming is ing new line with puts"
-*      @c: The character to print
-*      Return: Always1
+*      	times_table prints "Programming is ing new line with puts"
+*
+*	Return: Always1
 */
 
-int _islower(int c)
+void times_table(void)
 {
 	int i; 
 	int x; 
