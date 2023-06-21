@@ -32,11 +32,12 @@ void jack_bauer(void)
 			hour2 = hour2 + 1;
 		}
 
-		_putchar(minute2 + '0');
 		_putchar(minute1 + '0');
+		_putchar(minute2 + '0');
 		
 		_putchar('\n');
 		minute2 = minute2 + 1;
+		hour2 +=1;
 	}
 
 
