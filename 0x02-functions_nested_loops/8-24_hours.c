@@ -15,7 +15,7 @@ void jack_bauer(void)
 	int hour2 = 0;
 
 	printf("00:00");
-	while (hour1 < 2 && hour2 < 4)
+	while (hour1 < 3 && hour2 < 5 )
 	{
 		if (hour2 > 9)
 		{
