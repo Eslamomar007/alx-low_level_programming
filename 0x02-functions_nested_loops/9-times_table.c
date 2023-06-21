@@ -26,7 +26,7 @@ void times_table(void)
 			{
 				sec = input % 10;
 
-				f = (sec - input)/10;
+				f = (input - sec)/10;
 	                       _putchar(f + '0');
 			       _putchar(sec + '0');
 			       _putchar(44);
