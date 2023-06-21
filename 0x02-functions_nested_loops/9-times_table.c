@@ -36,7 +36,7 @@ void times_table(void)
 
 			else
 			{
-		
+			_putchar(' ');	
 			_putchar(input + '0');
 			if( x != 8)
 				_putchar(44);
