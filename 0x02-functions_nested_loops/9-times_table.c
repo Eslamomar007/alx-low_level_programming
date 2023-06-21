@@ -30,8 +30,10 @@ void times_table(void)
 	                       _putchar(f + '0');
 			       _putchar(sec + '0');
 			     	 if (i != 9 )
-					  _putchar(44);
-			       _putchar(32);
+				 {
+					 _putchar(44);
+			      		 _putchar(32);
+				 } 
 			}
 
 			else
@@ -39,8 +41,10 @@ void times_table(void)
 			_putchar(' ');	
 			_putchar(input + '0');
 			if( i != 9)
+			{
 				_putchar(44);
-			_putchar(32);
+				_putchar(32);
+			}
 			}
 		}
 		_putchar('\n');
