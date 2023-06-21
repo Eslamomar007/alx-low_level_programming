@@ -23,7 +23,7 @@ void print_times_table(int n)
 			if (input > 99)
 			{	
 				printf("%d",input);
-				if (i != 99)
+				if (i != n )
 				{
 					_putchar(44);
 					_putchar(32);
@@ -35,7 +35,7 @@ void print_times_table(int n)
                        	        {
 		       		       printf("  ");
 	       	                }		
-				if (i != 9)
+				if (i != n)
 				{
 					_putchar(44);
 					_putchar(32);
@@ -48,7 +48,7 @@ void print_times_table(int n)
 					printf("  ");
 				}
 				_putchar(input + '0');
-				if (i != 9)
+				if (i != n)
 				{
 					_putchar(44);
 					_putchar(32);
