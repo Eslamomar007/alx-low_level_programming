@@ -13,6 +13,7 @@ void jack_bauer(void)
 	int minute2 = 0;
 	int hour1 = 0;
 	int hour2 = 0;
+	int counter = 0;
 
 	while (1)
 	{
@@ -33,7 +34,7 @@ void jack_bauer(void)
 			minute2 = 0;
 			minute1 = minute1 + 1;
 		}
-
+                
 		_putchar(hour1 + '0');
 		_putchar(hour2 + '0');
 		_putchar(58);
@@ -41,7 +42,11 @@ void jack_bauer(void)
 		_putchar(minute2 + '0');
 		_putchar('\n');
 		minute2 = minute2 + 1;
-                if (hour1 == 2 && hour2 == 3 && minute1 == 5 && minute2 == 0)
-			                        break;
+                if (hour1 == 2 && hour2 == 3 && minute1 == 5 && minute2 == 9)
+			counter++;
+	                        
+		if (counter == 2)
+			break;
+
 	}
 }
