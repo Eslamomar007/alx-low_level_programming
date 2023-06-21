@@ -42,11 +42,10 @@ void jack_bauer(void)
 		_putchar(minute2 + '0');
 		_putchar('\n');
 		minute2 = minute2 + 1;
-                if (hour1 == 2 && hour2 == 3 && minute1 == 5 && minute2 == 9)
+                if (counter == 1)
+			break;
+		if (hour1 == 2 && hour2 == 3 && minute1 == 5 && minute2 == 9)
 			counter++;
 	                        
-		if (counter == 2)
-			break;
-
 	}
 }
