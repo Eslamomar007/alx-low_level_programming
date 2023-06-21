@@ -35,5 +35,5 @@ void jack_bauer(void)
 		}
 		if (hour2 == 3 && hour1 == 2)
 			break;	
-	
+	}
 }
