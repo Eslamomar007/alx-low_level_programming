@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-*      print_last_digit - Prints "Programming is ing new line with puts"
-*      t
+*     jack_bauer - Prints "Programming is ing new line with puts"
+*      
 *      Return: Always1
 */
 
