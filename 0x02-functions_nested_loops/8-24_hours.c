@@ -29,11 +29,11 @@ void jack_bauer(void)
 					_putchar(minute2 + '0');
 					_putchar('\n');
 				}
-			}	
+			}
 			if (hour2 == 3 && hour1 == 2)
 				break;
 		}
 		if (hour2 == 3 && hour1 == 2)
-			break;	
+			break;
 	}
 }
