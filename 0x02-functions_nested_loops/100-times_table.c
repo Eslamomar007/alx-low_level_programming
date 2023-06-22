@@ -27,11 +27,7 @@ void print_times_table(int n)
 				}
 			}
 			if (input > 9)
-			{
-				if (i != 0)
-                       	        {
-		       		       printf("  ");
-	       	                }
+			{ 
 				printf("%d", input);		
 				if (i != n)
 				{
