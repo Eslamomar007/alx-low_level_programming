@@ -19,7 +19,7 @@ void print_times_table(int n)
 			input = i * x;
 			if (input > 99)
 			{
-                                if (i >= n)
+                                if (i != n)
 					printf("  ");
 				printf("%d", input);
 				if (i != n)
@@ -30,7 +30,7 @@ void print_times_table(int n)
 			}
 			else if	(input > 9)
 			{ 
-				if (i >= n)
+				if (i != n)
 					printf("  ");
 				printf("%d", input);		
 				if (i != n)
