@@ -20,7 +20,7 @@ void print_times_table(int n)
 			if (input > 99)
 			{
                                 if (i <= n)
-					printf("  ");
+					printf(" ");
 				
 				printf("%d", input);
 				if (i != n)
