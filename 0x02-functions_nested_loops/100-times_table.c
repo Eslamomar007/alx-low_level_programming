@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * print_times_table - prints"Programming is ing new line with put"s
-* @n: asdfsadf
+* @n: asdfsadfsdf
 * Return: Always1
 */
 
