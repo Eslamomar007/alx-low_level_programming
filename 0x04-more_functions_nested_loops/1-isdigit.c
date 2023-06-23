@@ -11,7 +11,7 @@
  * Return: 1 for true 0 for false
  */
 
-int _isdigitr(int c)
+int _isdigit(int c)
 {
 	if (isdigit(c))
 		return (1);
