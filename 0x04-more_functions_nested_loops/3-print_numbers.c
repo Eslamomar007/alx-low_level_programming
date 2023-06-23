@@ -2,17 +2,20 @@
 #include <ctype.h>
 
 /**
- * mul - functionsdf
+ * print_numbers - functionsdf
  *
  * Description: function asdffasdthat can check uppercase char
- *
- * @a: input adsf
- * @c: input paramasdf
  *
  * Return: 1 for true 0 for false
  */
 
-int mul(int a,int c)
+int print_numbers(void)
 {
-	return (a * c);
+	int i;
+	
+	for (i = 48; i <= 57; i++)
+		_putchar(i + '0');
+	_putchar('\n');
+
+	return (0);
 }
