@@ -16,8 +16,10 @@ int _isupper(int c)
 	{
 		n = 0;
 	}
-	
-
+	_putchar(c + '0');
+	_putchar(':');	
+	_putchar(' ');
+	_putchar(n + '0');
 
 	return (0);
 }
