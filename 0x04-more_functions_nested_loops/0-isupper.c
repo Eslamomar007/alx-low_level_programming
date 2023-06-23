@@ -2,8 +2,12 @@
 #include <ctype.h>
 
 /**
- * _isupper - functiois upper
- * @c: char varialnladsf
+ * _isupper - functionsdf
+ *
+ * Description: function asdffasdthat can check uppercase char
+ *
+ * @c: input paramasdf
+ *
  * Return: 1 for true 0 for false
  */
 
