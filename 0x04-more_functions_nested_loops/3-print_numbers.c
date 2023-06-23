@@ -9,7 +9,7 @@
  * Return: 1 for true 0 for false
  */
 
-int print_numbers(void)
+void print_numbers(void)
 {
 	int i;
 	
