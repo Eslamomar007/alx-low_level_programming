@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * print_numbers - functionsdf
@@ -17,6 +16,5 @@ void print_numbers(void)
 	{
 		_putchar(i);
 	}
-
 	_putchar('\n');
 }
