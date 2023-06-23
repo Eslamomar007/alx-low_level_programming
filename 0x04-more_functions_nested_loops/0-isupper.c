@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 *      _isuppper - Prints "Programmafing is ing new line with puts"
 *      @c: The character to print
@@ -7,14 +8,15 @@
 
 int _isupper(char c)
 {
-	if (isupper(c))
-	{
-		printf("%c: %d", c, 1);
-	}
-	else
-	{
-		printf("%c: %d", c, 0);
-	}
+	int x = 0;
 
+	if (c >= 65 && c < 90)
+	{
+		x = 1;
+	}
+	_putchar(c);
+	_putchar(':');
+	_putchar(' ');
+	_putchar(x);
 	return (0);
 }
