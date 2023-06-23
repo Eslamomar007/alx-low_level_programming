@@ -3,6 +3,7 @@
 
 /**
  * _isupper - functiois upper
+ * @c - char varialnladsf 
  * Return: 1 for true 0 for false
  */
 
