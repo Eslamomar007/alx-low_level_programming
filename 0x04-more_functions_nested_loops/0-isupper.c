@@ -6,15 +6,15 @@
  */
 int _isupper(int c)
 {
-	int c = 0;
+	int n = 0;
 
 	if (c >= 65 && c <= 90)
 	{
-		c = 1;
+		n = 1;
 	}
 	else
 	{
-		c = 0;
+		n = 0;
 	}
 	
 
