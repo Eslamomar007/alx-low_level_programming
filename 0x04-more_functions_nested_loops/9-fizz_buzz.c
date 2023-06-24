@@ -1,8 +1,6 @@
-#include "main.h"
 #include <stdio.h>
-
 /**
- * fizz_buzz- function
+ * main- functioni
  *
  * Description: function that can print numbers from 0 to 9
  */
@@ -26,7 +24,7 @@ int main(void)
 			else
 			{
 				printf("Buzz");
-			}			
+			}
 		}
 		else if (i % 3 == 0)
 		{
@@ -37,6 +35,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
+
 	printf("\n");
 
 	return (0);
