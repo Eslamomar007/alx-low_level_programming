@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main- functioni
+ * main - functioni
  *
  * Description: function that can print numbers from 0 to 9
- * return: 0
-*/
+ * return: always 0
+ */
 
 int main(void)
 {
