@@ -7,7 +7,7 @@
  * Description: function that can print numbers from 0 to 9
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -31,4 +31,6 @@ void main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
+
