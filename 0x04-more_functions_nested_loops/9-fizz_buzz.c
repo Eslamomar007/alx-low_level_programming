@@ -23,11 +23,12 @@ void fizz_buzz(void)
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz");
+			printf("Fiz z");
 		}
 		else
+		{
 			printf("%d ", i);
+		}
 	}
-
-	_putchar('\n');
+	printf("\n");
 }
