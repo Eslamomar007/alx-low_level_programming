@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more__numbers- function
+ * more_numbers- function
  *
  * Description: function that can print numbers from 0 to 9
  */
