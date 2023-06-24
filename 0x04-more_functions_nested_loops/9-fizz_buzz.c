@@ -26,8 +26,7 @@ int main(void)
 			else
 			{
 				printf("Buzz ");
-			}
-			
+			}			
 		}
 		else if (i % 3 == 0)
 		{
@@ -39,6 +38,6 @@ int main(void)
 		}
 	}
 	printf("\n");
+
 	return (0);
 }
-
