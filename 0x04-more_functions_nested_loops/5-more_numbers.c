@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * print_most_numbers- function
+ * more__numbers- function
  *
  * Description: function that can print numbers from 0 to 9
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	int i;
 	int x = 0;
+
 	for (; x < 10; x++)
 	{
 		for (i = 0; i < 15; i++)
