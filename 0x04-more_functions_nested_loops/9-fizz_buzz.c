@@ -4,7 +4,7 @@
  *
  * Description: function that can print numbers from 0 to 9
  * return: always 0
- */
+*/
 
 int main(void)
 {
