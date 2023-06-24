@@ -7,7 +7,7 @@
  * Description: function that can print numbers from 0 to 9
  */
 
-void fizz_buzz(void)
+void main(void)
 {
 	int i;
 
