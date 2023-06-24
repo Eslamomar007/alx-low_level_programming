@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - functioni
- *
- * Description: function that can print numbers from 0 to 9
- * return: always 0
-*/
-
+ * *main - program that prints either number
+ * *or fizz or buzz or fizzBuzz
+ * *
+ * *
+ * *Return: returns 0
+ * */
 int main(void)
 {
 	int i;
