@@ -12,7 +12,7 @@ void print_triangle(int size)
 {
 	int i;
 	int x;
-	int cointer = size - 1;
+	int counter = size - 1;
 
 	if (size > 0)
 	{
@@ -20,10 +20,13 @@ void print_triangle(int size)
 		{
 			for (i = 0; i < size; i++)
 			{
-				if (counter >= i) 
+				if (counter <= i) 
+				{
 					_putchar(35);
+				}
 				_putchar(' ');
 			}
+			counter -= 1;
 			_putchar('\n');
 		}
 	}
