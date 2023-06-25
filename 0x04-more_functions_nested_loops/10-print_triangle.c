@@ -14,7 +14,7 @@ void print_triangle(int size)
 	int i;
 	int x;
 	int counter = size;
-	char ss = " ";
+	char ss = ' ';
 
 	if (size > 0)
 	{
