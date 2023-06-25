@@ -22,9 +22,13 @@ void print_traingle(int size)
 			for (i = 0; i < size; i++)
 			{
 				if (counter >= i)
+				{
 					_putchar(35);
+				}
 				else
+				{
 					_putchar(' ');
+				}
 			}
 			_putchar('\n');
 		}
