@@ -8,7 +8,7 @@
  * Description: function that can print numbers from 0 to 9
  */
 
-void print_traingle(int size)
+void print_triangle(int size)
 {
 	int i;
 	int x;
