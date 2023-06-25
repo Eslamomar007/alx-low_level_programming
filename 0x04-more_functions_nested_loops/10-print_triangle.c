@@ -12,7 +12,6 @@ void print_triangle(int size)
 {
 	int i;
 	int x;
-	char s = ' ';
 	int counter = size;
 
 	if (size > 0)
@@ -28,7 +27,7 @@ void print_triangle(int size)
 				}
 				else
 				{
-					_putchar(s);
+					_putchar(32);
 				}
 			}
 			_putchar('\n');
