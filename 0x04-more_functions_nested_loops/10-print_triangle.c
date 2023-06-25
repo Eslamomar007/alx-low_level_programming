@@ -1,40 +1,28 @@
 #include "main.h"
-
 /**
- * print_triangle- function
- *
- * @size: int apram
- *
- * Description: function that can print numbers from 0 to 9
+ *print_triangle - prints a asdftriangle
+ *@size:size parameter of triangle
+ *Return:returns nothing
  */
-
 void print_triangle(int size)
 {
-	int i;
-	int x;
-	int counter = size;
+	int inc1, inc2;
 
 	if (size > 0)
 	{
-		for (x = 1; x < size; x++)
+		for (inc1 = 1; inc1 <= size; inc1++)
 		{
-			counter -= 1;
-			for (i = 0; i < size; i++)
-			{
-				if (counter >= i)
-				{
-					_putchar(35);
-				}
-				else
-				{
-					_putchar(32);
-				}
-			}
+			for ((inc2 = size - inc1); inc2 > 0; inc2--)
+				_putchar(' ');
+
+			for (inc2 = 0; inc2 < inc1; inc2++)
+				_putchar('#');
+
+			if (inc1 == size)
+				continue;
+
 			_putchar('\n');
 		}
 	}
-	else
-	{
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
