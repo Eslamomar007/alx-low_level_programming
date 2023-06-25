@@ -1,13 +1,14 @@
-#include 'main.h'
+#include "main.h"
 
 /**
  * print_triangle- function
  *
  * @size: int apram
+ *
  * Description: function that can print numbers from 0 to 9
  */
 
-void print_triangle(int size)
+void print_traingle(int size)
 {
 	int i;
 	int x;
@@ -20,10 +21,8 @@ void print_triangle(int size)
 			counter -= 1;
 			for (i = 0; i < size; i++)
 			{
-				if (counter <= i)
-				{
-					_putchar('#');
-				}
+				if (counter >= i)
+					_putchar(35);
 				else
 					_putchar(' ');
 			}
