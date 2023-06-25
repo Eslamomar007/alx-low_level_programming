@@ -23,7 +23,7 @@ void print_triangle(int size)
 			{
 				if (counter <= i) 
 				{
-					_putchar(35);
+					_putchar('#');
 				}
 				else
 					_putchar(' ');
