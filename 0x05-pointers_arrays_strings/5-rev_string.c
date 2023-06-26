@@ -10,19 +10,32 @@
 
 void rev_string(char *s)
 {
-	int c = strlen(s) - 2;
+	int i = 0;
+	int c = 0;
+	
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	
+	
+	int mid = i / 2;
+	i--;
 
 	while (1)
 	{
-		if (c >= 0)
+		if (i < mid)
 		{
-			_putchar(s[c]);
+			temp = s[c];
+			s[c] = s[i];
+			s[i] = temp;
 		}
 		else
 		{
 			break;
 		}
-		c--;
+		i--;
+		c++;
 	}
 	
 	_putchar('\n');
