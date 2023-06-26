@@ -19,7 +19,8 @@ void rev_string(char *s)
 	}
 	
 	
-	int mid = i / 2;
+	int mid;
+        mid = i / 2;
 	i--;
 
 	while (1)
