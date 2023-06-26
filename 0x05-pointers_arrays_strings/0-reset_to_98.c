@@ -1,11 +1,18 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update the value
+ * swap_int - update the value
  * the pointer points to to 98
- * @n: pointer to he variable
+ *
+ *  @a: pointer to he variable
+ *  @b: pointer to var
  */
-void reset_to_98(int *n)
+
+void swap_int(int *a, int *b)
 {
-	*n = 98;
+	int store;
+
+	store = a;
+	a = b; 
+	b = store;
 }
