@@ -8,7 +8,7 @@
  *  @s: pointer to he variable
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int c = strlen(s) - 1;
 
