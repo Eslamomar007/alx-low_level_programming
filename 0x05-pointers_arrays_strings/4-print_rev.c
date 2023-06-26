@@ -14,5 +14,5 @@ void print_rev(char *s)
 
 	str = strev(s);
 	puts(str);
-	puts('\n');
+	puts("\n");
 }
