@@ -5,7 +5,7 @@
  * _strlen - update the value
  * the pointer points to to 98
  *
- *  @s: pointer to he variable  
+ *  @s: pointer to he variable
  *  Return:  lenth
  */
 
