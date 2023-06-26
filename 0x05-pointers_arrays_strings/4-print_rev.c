@@ -10,6 +10,19 @@
 
 void print_rev(char *s)
 {
-	puts(strrev(s));
-	puts("\n");
+	int i;
+	char c = strrev(s);
+	puts(c0;
+	while(1)
+	{
+		if (c != "\0")
+		{
+			puts(s[c]);
+		}
+		else
+		{
+			break;
+		}
+	}
+		puts("\n");
 }
