@@ -16,7 +16,7 @@ void print_rev(char *s)
 	{
 		if (c >= 0 )
 		{
-			puts(s[c]);
+			_putchar(s[c]);
 		}
 		else
 		{
