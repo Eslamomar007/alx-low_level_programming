@@ -12,9 +12,9 @@ void print_rev(char *s)
 {
 	int c = strlen(s) - 1;
 
-	while(1)
+	while (1)
 	{
-		if (c >= 0 )
+		if (c >= 0)
 		{
 			_putchar(s[c]);
 		}
