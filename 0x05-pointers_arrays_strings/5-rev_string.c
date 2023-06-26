@@ -10,7 +10,7 @@
 
 void rev_string(char *s)
 {
-	/**int c = strlen(s) - 1;
+	int c = strlen(s) - 1;
 
 	while (1)
 	{
@@ -23,8 +23,7 @@ void rev_string(char *s)
 			break;
 		}
 		c--;
-	}*/
-	s = strrev(s);
-	puts(s);
+	}
+	
 	_putchar('\n');
 }
