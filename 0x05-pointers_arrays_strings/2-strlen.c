@@ -5,9 +5,8 @@
  * _strlen - update the value
  * the pointer points to to 98
  *
- *  @a: pointer to he variable
- *  
- *  return - lenth
+ *  @s: pointer to he variable  
+ *  Return - lenth
  */
 
 int _strlen(char *s)
@@ -16,5 +15,5 @@ int _strlen(char *s)
 
 	len = strlen(s);
 
-	return(len);
+	return(len)
 }
