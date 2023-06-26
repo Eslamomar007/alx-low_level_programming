@@ -10,7 +10,7 @@
 
 void print_rev(char *s)
 {
-	int c = strlen(s) + 1;
+	int c = strlen(s) - 1;
 
 	while(1)
 	{
@@ -24,6 +24,5 @@ void print_rev(char *s)
 		}
 		c--;
 	}
-	
 	_putchar('\n');
 }
