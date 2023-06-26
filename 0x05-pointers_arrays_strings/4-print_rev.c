@@ -10,12 +10,11 @@
 
 void print_rev(char *s)
 {
-	int i;
-	char c = strrev(s);
-	puts(c0;
+	int c = strlen(s);
+
 	while(1)
 	{
-		if (c != "\0")
+		if (c >= 0 )
 		{
 			puts(s[c]);
 		}
