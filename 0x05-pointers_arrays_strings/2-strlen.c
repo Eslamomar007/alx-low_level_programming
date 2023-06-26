@@ -6,7 +6,7 @@
  * the pointer points to to 98
  *
  *  @s: pointer to he variable  
- *  Return - lenth
+ *  Return:  lenth
  */
 
 int _strlen(char *s)
