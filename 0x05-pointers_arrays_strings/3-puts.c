@@ -5,7 +5,7 @@
  * _puts - update the value
  * the pointer points to to 98
  *
- *  @s: pointer to he variable
+ *  @str: pointer to he variable
  */
 
 void _puts(char *str)
