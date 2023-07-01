@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * tring_toupper -  unctionsd
+ * string_toupper -  unctionsd
  * Description: function asdffasdthat can check uppercase char
  * @strs: iasdf
  * Return: int a 0
