@@ -4,8 +4,8 @@
 /**
  * _strcmp - functionsd
  * Description: function asdffasdthat can check uppercase char
- * @dest: iasdf
- * @src: input paramasdf
+ * @s1: iasdf
+ * @s2: input paramasdf
  * Return: int a 0
  */
 int _strcmp(char *s1, char *s2)
