@@ -14,6 +14,16 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	strncpy(dest, src);
+	int i, j;
+
+	i = 0;
+	while(dest[i] != '\n')
+	{
+		i++;
+	}
+	for(j = 0; src[j] != '\n'; j++)
+	{
+		dest[i + j] = src[j];
+	}
 	return (dest);
 }
