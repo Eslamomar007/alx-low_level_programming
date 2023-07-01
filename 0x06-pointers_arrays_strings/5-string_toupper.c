@@ -4,7 +4,7 @@
 /**
  * tring_toupper -  unctionsd
  * Description: function asdffasdthat can check uppercase char
- * @char: iasdf
+ * @strs: iasdf
  * Return: int a 0
  */
 char *string_toupper(char *strs)
