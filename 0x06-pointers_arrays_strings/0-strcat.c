@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype.h>
+#include <string.h>
 
 /**
  * *_strcat - functionsdf
@@ -14,7 +14,6 @@
 
 char *_strcat(char *dest, char *src)
 {
-	strcat(*dest," ");
-	strcat(*dest,*src);
-	return (*dust);
+	strcat(dest,src);
+	return (dust);
 }
