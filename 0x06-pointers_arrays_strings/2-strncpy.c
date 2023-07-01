@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *_strncpy - functionsdf
+ * _strncpy - functionsdf
  *
  * Description: function asdffasdthat can check uppercase char
  *
