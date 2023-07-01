@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *_strcat - functionsdf
+ * *_strncat - functionsdf
  *
  * Description: function asdffasdthat can check uppercase char
  *
@@ -12,7 +12,7 @@
  * Return: *dest
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a, b;
 
