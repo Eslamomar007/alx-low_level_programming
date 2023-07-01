@@ -7,7 +7,7 @@
  * @char: iasdf
  * Return: int a 0
  */
-char *string_toupper(char *)
+char *string_toupper(char *strs)
 {
 	int b;
 
