@@ -10,6 +10,8 @@ int _putchar(char c);
 int _strlen(char *s);
 char *_memcpy(char *dest, char *src, unsigned int n);
 void _puts(char *str);
+unsigned int _strspn(char *s, char *accept);
+char *_strchr(char *s, char c);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
