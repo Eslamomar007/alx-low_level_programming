@@ -3,11 +3,11 @@
 
 /**
  * _memset - update the value
- * the pointer points to to 98
  *
  *  @*s: pointer to he variable
  *  @b: asdfasdf
  *  @n: asdfasdf
+ *
  *  Return:  lenth
  */
 
