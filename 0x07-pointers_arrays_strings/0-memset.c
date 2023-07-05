@@ -1,10 +1,8 @@
 #include "main.h"
-#include <string.h>
-
 /**
- * _memset - update the value
+ * _memset - update the valueasdf
  *
- *  @*s: pointer to he variable
+ *  @s: pointer to he variable
  *  @b: asdfasdf
  *  @n: asdfasdf
  *
