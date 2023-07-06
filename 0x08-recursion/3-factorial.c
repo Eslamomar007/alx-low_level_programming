@@ -4,7 +4,7 @@
 /**
  * factorial - update the valueasdf
  *
- *  @s: pointer to he variable
+ *  @n: pointer to he variable
  *
  *  Return:  lenth
  */
