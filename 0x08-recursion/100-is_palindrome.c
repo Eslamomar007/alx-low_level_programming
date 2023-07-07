@@ -15,7 +15,7 @@ int checker(char *s, int i, int f)
 	if (f == i || f < i)
 		return (0);
 	if (*s[i] !=*s[f])
-		return (checker(*s, i + 1, f - 1)
+		return (checker(*s, i + 1, f - 1);
 
 	return (1);
 }
