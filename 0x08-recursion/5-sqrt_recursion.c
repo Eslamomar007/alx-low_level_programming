@@ -2,9 +2,10 @@
 #include <string.h>
 
 /**
- *  _sqrt_recursion - update the valueasdf
+ *  checker - update the valueasdf
  *
  *  @n: pointer to he variable
+ *  @base: asdf
  *  Return:  lenth
  */
 
@@ -22,6 +23,12 @@ int checker(int n, int base)
 
 	return (checker(n + 1, base));
 }
+/**
+ *  sqrt_recursion - update the valueasdf
+ *
+ *  @n: pointer to he variable
+ *  Return:  lenth
+ */
 
 int _sqrt_recursion(int n)
 {
