@@ -9,28 +9,31 @@
  *  Return:  lenth
  */
 
-int checker(int n, int base)
-{
-	if (base == n * n)
-		return (n);
-
-	if (base < 0)
-	{
-		return (-1);
-	}
-	if (base < n * n)
-		return (-1);
-
-	return (checker(n + 1, base));
-}
 /**
- *  _sqrt_recursion - update the valueasdf
+ * _sqrt_recursion - update the valueasdf
  *
  *  @n: pointer to he variable
  *  Return:  lenth
  */
 
-int _sqrt_recursion(int n)
+int is_palindrome(char *s)
+{	int f = 0;
+
+	while (*s)
+	{
+		f++;
+	}
+
+	return (checker(1, 0, f));
+}
+int checker(char *s, int i, int f)
 {
-	return (checker(1, n));
+	if (!s)
+		return (0);
+	if (f == i || f < i)
+		return (0);
+	if (s[i] !=s[f])
+		return (checker(s*, i + 1, f - 1)
+	
+	return (1);
 }
