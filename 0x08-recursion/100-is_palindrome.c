@@ -8,7 +8,7 @@
  *  @base: asdf
  *  Return:  lenth
  */
-nt checker(char *s, int i, int f)
+int checker(char *s, int i, int f)
 {
 	if (!s)
 		return (0);
