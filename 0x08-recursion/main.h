@@ -12,7 +12,7 @@ int factorial(int n);
 
 
 int _pow_recursion(int x, int y);
-
+int is_palindrome(char *s);
 void  _puts_recursion(char *s);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
