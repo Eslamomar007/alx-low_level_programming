@@ -24,7 +24,7 @@ int checker(int n, int base)
 	return (checker(n + 1, base));
 }
 /**
- *  sqrt_recursion - update the valueasdf
+ *  _sqrt_recursion - update the valueasdf
  *
  *  @n: pointer to he variable
  *  Return:  lenth
