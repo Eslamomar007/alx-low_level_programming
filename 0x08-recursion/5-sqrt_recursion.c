@@ -17,7 +17,7 @@ int checker(int n, int base)
 	{
 		return (-1);
 	}
-	if (base > n * n)
+	if (base < n * n)
 		return (-1);
 
 	return (checker(n + 1, base));
