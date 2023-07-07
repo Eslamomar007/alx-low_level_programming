@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - update the value
  * the pointer points to to 98
