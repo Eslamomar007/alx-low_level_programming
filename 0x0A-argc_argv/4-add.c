@@ -11,6 +11,7 @@ int main(int argc, char **argv)
 {
 	int num1, num2, results = 0;
 
+	argv++;
 	while (*argv)
 	{
 		if (isdigit(*argv))
