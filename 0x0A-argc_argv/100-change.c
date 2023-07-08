@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	{
 		coins = (i / 25);
 		sum = coins + sum;
-		i = (coins * 25) - i;
+		i = i % 25;
 	}
 	if (i >= 10)
         {
