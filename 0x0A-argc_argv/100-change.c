@@ -29,7 +29,6 @@ int main(int argc, char *argv[])
 		sum = coins + sum;
 		i = i % 10;
 	}
-	
 	if (i >= 5)
 	{
 		coins = (i / 5);
