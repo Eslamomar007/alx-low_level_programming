@@ -1,31 +1,46 @@
 #include <stdio.h>
-#include <ctype.h>
 #include <stdlib.h>
+#include <ctype.h>
+#define UNUSED(x)(void)(x)
 /**
- * main - a program that prints its name, followed by a new line
- * @argc: arguement count
- * @argv: argument value, a strings that come after calling function
- * Return: Always 0 (Success)
+ * main - adds twasdfo numbers
+ * @argc:int
+ * @argv:array of strings
+ * Return: sumsasdfion if all digits
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int num1, num2, results = 0;
+	int i;
+	int j;
+	int c;
+	int sumsion;
+	char *s;
 
-	argv++;
-	while (*argv)
+	sumsion = 0;
+	c = 0;
+
+	i = 1;
+	while (i < argc)
 	{
-		if (isdigit(*argv))
+		s = argv[i];
+		j = 0;
+		while (s[j] != '\0')
 		{
-			results = results + atoi(*argv);
-			argv = argv + 1;
+			if (s[j] < '0' || s[j] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+			j++;
 		}
-		else
-		{
-			printf("%s\n", "Error");
-			return (1);
-		}
+		i++;
 	}
-        printf("%d\n", results);
-	return (0);
 
+	for (i = 1; i < argc; i++)
+	{
+		c = atoi(argv[i]);
+		sumsion = sumsion + c;
+	}
+	printf("%d\n", sumsion);
+	return (0);
 }
