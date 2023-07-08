@@ -17,6 +17,11 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	i = atoi(argv[1]);
+	if (i < 0)
+	{
+		printf("%d\n", 0);
+		return(0);
+	}
 	if (i >= 25)
 	{
 		coins = (i / 25);
