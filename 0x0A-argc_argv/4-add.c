@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 	{
 		if (isdigit(*argv))
 		{
-			results =+ *argv;
+			results = results + atoi(*argv);
 			argv = argv + 1;
 		}
 		else
