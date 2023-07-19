@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- * print_dog dog - dog data
+ * print_dog - dog data
  * @d: adfdaffdaadfda
  */
 void print_dog(struct dog *d)
