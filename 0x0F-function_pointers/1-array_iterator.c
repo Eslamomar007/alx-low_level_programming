@@ -3,7 +3,7 @@
  * array_iterator - asdfdsar
  * @array: char string
  * @size: asdfadf
- * @size: iion pointer that takes a string argument
+ * @action: iion pointer that takes a string argument
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
