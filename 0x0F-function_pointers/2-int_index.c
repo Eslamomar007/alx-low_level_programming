@@ -1,11 +1,13 @@
 #include "function_pointers.h"
+
 /**
  * int_index - asdfdsar
  * @array: char string
  * @size: asdfadf
  * @cmp: iion pointer that takes a string argument
- * Return : afasdfasdfa
+ * Return: afasdfasdfa
  */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
@@ -18,5 +20,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 				return (i);
 		}
 	}
+
 	return (-1);
 }
