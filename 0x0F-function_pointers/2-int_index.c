@@ -4,7 +4,7 @@
  * @array: char string
  * @size: asdfadf
  * @cmp: iion pointer that takes a string argument
- * return : afasdfasdfa
+ * Return : afasdfasdfa
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
