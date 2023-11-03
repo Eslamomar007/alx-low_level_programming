@@ -8,14 +8,6 @@
  *  Return:  lenth
  */
 
-/**
- *  checker - update the valueasdf
- *
- *  @base: pointer to he variable
- *  @f: asdf
- *  Return:  lenth
- */
-
 int _sqrt_recursion(int f)
 {
 	if (f <= 0)
@@ -23,6 +15,14 @@ int _sqrt_recursion(int f)
 
 	return (checker(1, f));
 }
+
+/**
+ *  checker - update the valueasdf
+ *
+ *  @base: pointer to he variable
+ *  @f: asdf
+ *  Return:  lenth
+ */
 
 int checker(int base, int f)
 {
