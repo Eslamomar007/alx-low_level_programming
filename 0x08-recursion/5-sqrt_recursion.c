@@ -32,5 +32,5 @@ int checker(int base, int f)
 		return (-1);
 	if (f < base * base)
 		return (checker(base + 1, f));
-	return 1
+	return 1;
 }
