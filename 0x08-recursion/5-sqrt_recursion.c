@@ -23,6 +23,7 @@ int _sqrt_recursion(int f)
 
 	return (checker(1, f));
 }
+
 int checker(int base, int f)
 {
 	if (f == base  * base)
@@ -30,5 +31,5 @@ int checker(int base, int f)
 	if (f > base * base)
 		return (-1);
 	if (f < base * base)
-		return (checker(base + 1, f)
+		return (checker(base + 1, f));
 }
