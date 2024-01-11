@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int  is_prime_number(int f);
+int is_prime_number(int f);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 int factorial(int n);
