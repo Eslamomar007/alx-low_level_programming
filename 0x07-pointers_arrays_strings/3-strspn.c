@@ -7,12 +7,13 @@
  *  @s: pointer to he variable
  *  @accept: asdfasdff
  *
- *  Return:  lenth
+ *  Return:lenth
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
 	int counter = 0;
+
 	while (*s)
 	{
 		while (*accept)
