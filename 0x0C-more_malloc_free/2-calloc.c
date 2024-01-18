@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_nconcat - update the valueasdf
+ *  _calloc- update the valueasdf
  *
  *  @size: asdfasdf
  *  @nmemb: adsf
@@ -10,23 +10,21 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int count, count1;
-	int sign = n;
-	int *ptr, *ptr1;
+	int count;
+	int *ptr;
 
 	if (nmemb == 0)
 		return NULL;
 	if (size == 0)
 		return NULL;
 	ptr = maloc(nmemb * size);
-	ptr1 = ptr;
+	
 	if (ptr == NULL)
 		return NULL;
 	for (count = 0; count < (size * nmemb); count++)
 	{
-		*ptr = 0;
-		ptr++;
+		ptr[count] = 0;
 	}
 
-	return (ptr1);
+	return (ptr);
 }
