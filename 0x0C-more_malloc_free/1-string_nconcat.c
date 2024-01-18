@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * malloc_checked - update the valueasdf
+ * string_nconcat - update the valueasdf
  *
  *  @s1: asdfasdf
  *  @s2: fghjkl
