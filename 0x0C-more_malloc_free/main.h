@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 void *malloc_checked(unsigned int b);
-
+void *_calloc(unsigned int nmemb, unsigned int size);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
