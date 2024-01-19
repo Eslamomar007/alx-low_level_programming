@@ -11,7 +11,6 @@
 
 char *create_array(unsigned int size, char c);
 {
-	int *ptr;
 	char *cc;
 	unsigned int i;
 
