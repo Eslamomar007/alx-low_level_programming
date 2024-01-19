@@ -9,23 +9,20 @@
  *  Return: return pointer
  */
 
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
-	char *cc;
+	char *a;
 	unsigned int i;
 
 	if (size == 0)
 		return (NULL);
 
-	cc = malloc(size * sizeof(*cc));
-
-	if (cc == NULL)
+	a = malloc(size * sizeof(*a));
+	if (a == NULL)
 		return (NULL);
 
 	for (i = 0; i < size; i++)
-	{
-		cc[i] = c;
-	}
+		a[i] = c;
 
-	return (cc);
+	return (a);
 }
