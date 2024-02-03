@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+
 /**
  * print_list - hello
  * h - list of node
@@ -13,7 +14,7 @@ size_t print_list(const list_t *h)
 	while (h)
 	{
 			if (!(h->str))
-			{	
+			{
 				printf("[0] (nil)");
 				counter++;
 				continue;
@@ -22,8 +23,9 @@ size_t print_list(const list_t *h)
 			{
 				printf("[%d] %s", h->len, h->str);
 				counter++;
-				h = h->next;
 			}
+			h = h->next;
+	
 	}
 	return (counter);
 }
