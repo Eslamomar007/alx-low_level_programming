@@ -1,9 +1,10 @@
 #include "lists.h"
 #include <stdio.h>
+
 /**
  * print_list - hello
  * @h: list of node
- * return: number of nodes
+ * Return: number of nodes
  */
 
 size_t print_list(const list_t *h)
