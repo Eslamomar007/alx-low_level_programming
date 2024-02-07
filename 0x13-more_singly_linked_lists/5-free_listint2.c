@@ -7,7 +7,7 @@
 
 void free_listint2(listint_t **head)
 {
-	lsitint_t *temp, *cur;
+	listint_t *temp, *cur;
 
 	if (head == NULL)
 		return;
