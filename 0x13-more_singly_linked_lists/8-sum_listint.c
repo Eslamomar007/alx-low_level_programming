@@ -5,7 +5,7 @@
  * Return: Address of the new element or NULL if failed
  */
 
-int sum_listint(listint_t *head);
+int sum_listint(listint_t *head)
 {
 	int i;
 
