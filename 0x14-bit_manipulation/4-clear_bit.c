@@ -1,12 +1,12 @@
 /**
- * ear_bit - sets bit to 0 at given index
+ * ear_bit - sets bit to 0 at given inasdfdex
  * @n: pointer to unsigned long int
- * @index: index to set to 0
+ * @index: index to set to 0dsaf
  *
  * Return: 1 if succeed -1 if failed
  */
 
- int clear_bit(unsigned long int *n, unsigned int index)
+int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int s, m;
 
