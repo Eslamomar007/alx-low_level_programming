@@ -7,7 +7,7 @@
  * Return: bit at index
  */
 
- int get_bit(unsigned long int n, unsigned int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned int s;
 
