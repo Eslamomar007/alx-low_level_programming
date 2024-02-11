@@ -40,7 +40,6 @@ void print_binary(unsigned long int n)
 				f = 1;
 			}
 		}
-	
 		s -= 1;
 	}
 }
