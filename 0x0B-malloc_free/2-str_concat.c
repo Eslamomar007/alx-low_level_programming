@@ -4,7 +4,7 @@
  *  str_concat - update the valueasdf
  *
  *  @s1: asdf
- *  @s2
+ *  @s2: asdf
  *
  *  Return: return pointer
  */
@@ -24,11 +24,16 @@ char *str_concat(char *s1, char *s2)
 	i = 0;
 	j = 0;
 	while (s1[j])
+	{
+		j++;
 		i++;
+	}
 	j = 0;
 	while (s2[j])
+	{
 		i++;
-
+		j++;
+	}
 	ret = malloc(sizeof(char) * (i + 1));
 	if (ret == NULL)
 		return (NULL);
