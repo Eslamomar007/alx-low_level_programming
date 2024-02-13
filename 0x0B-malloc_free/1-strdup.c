@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ray - update the valueasdf
+ *  _strdup - update the valueasdf
  *
  *  @str: asdf
  *
@@ -25,7 +25,7 @@ char *_strdup(char *str)
 	if (a == NULL)
 		return (NULL);
 
-	for (j = 0; j < i; j++)
+	for (j = 0; str, j < i; j++)
 		str[j] = a[j];
 
 	return (a);
