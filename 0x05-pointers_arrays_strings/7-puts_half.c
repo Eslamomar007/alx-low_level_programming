@@ -33,6 +33,6 @@ void puts_half(char *str)
 		{
 			break;
 		}
-		i++;
+		mid++;
 	}
 }
