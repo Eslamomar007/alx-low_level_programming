@@ -12,6 +12,7 @@
 void puts2(char *s)
 {
 	int aa;
+
 	for (aa = 0; s[aa] != '\0'; aa++)
 	{
 		if (aa % 2 == 0)
