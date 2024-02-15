@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * print_rev - update the value
+ * rev_string - update the value
  * the pointer points to to 98
  *
- * @s: pointer to he variable
+ * @s: pointer to he variable 
  */
 
 void rev_string(char *s)
@@ -36,5 +36,4 @@ void rev_string(char *s)
 		i--;
 		c++;
 	}
-	_putchar('\n');
 }
