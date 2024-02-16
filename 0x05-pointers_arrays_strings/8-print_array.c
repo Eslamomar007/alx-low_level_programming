@@ -21,10 +21,12 @@ void print_array(int *a, int n)
 			printf("%d, ", a[i]);
 			n--;
 			i++;
-		}
+ 	        }
 		else
 		{
 			printf("%d", a[i]);
+			n--;
+			i++;
 		}
 		_putchar('\n');
 	}
