@@ -22,7 +22,7 @@ void print_array(int *a, int n)
 			n--;
 			i++;
 		}
-		else if
+		else if (n == 1)
 		{
 			printf("%d", a[i]);
 			n--;
