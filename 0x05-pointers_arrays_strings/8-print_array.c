@@ -6,7 +6,7 @@
  * the pointer points to to 98
  *
  * @a: pointer
- * @s: pointer to he variable
+ * @n: pointer to he variable
  */
 
 void print_array(int *a, int n)
