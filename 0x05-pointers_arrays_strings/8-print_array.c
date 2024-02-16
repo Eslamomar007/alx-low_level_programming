@@ -22,12 +22,14 @@ void print_array(int *a, int n)
 			n--;
 			i++;
 		}
-		else
+		else if
 		{
 			printf("%d", a[i]);
 			n--;
 			i++;
 		}
+		else
+			break;
 	}
 	
 	printf("\n");
