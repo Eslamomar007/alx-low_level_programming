@@ -7,7 +7,7 @@
  *
  * @dest: asdf
  * @src: pointer to he variable
- * return: asdfadsff
+ * Return: asdfadsff
  */
 
 char *_strcpy(char *dest, char *src)
